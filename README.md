@@ -5,7 +5,9 @@
 
 1.必须先修改cookie，才能使用。如果是会员cookie，可下载4K。
 
-2.使用前打开main.py,修改参数
+     cookie固定，不需要每次使用时修改。
+
+2.使用前打开main.py，修改参数
 ~~~
 spath=r'E:\小米牙啃小树枝'            #视频保存路径+文件名
 url = 'https://weibo.com/3222817584/KohjcjTEI'          #微博链接
