@@ -50,7 +50,7 @@ if file['data'] ==[]:  #720p 竖
     v3= parse.unquote(v3)
     v3= parse.unquote(v3)
     vlabel =re.findall(r'mp4_(.*?)&', v3)[0]  #分辨率
-    savepath =spath+'-['+ vlabel + '][菜包时光机].mp4'
+    savepath =spath+'-['+ vlabel + '].mp4'
     mp4 = requests.get(v3)  #下载视频
     with open(savepath, 'wb') as f:
         f.write(mp4.content)
